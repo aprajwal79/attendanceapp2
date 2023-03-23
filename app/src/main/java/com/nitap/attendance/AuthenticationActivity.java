@@ -2,6 +2,7 @@ package com.nitap.attendance;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
@@ -23,7 +24,8 @@ public class AuthenticationActivity extends AppCompatActivity {
         boolean hasRegistered = true;
         
         if (hasRegistered) {
-            loadDetails();
+            verifyDetails();
+            startActivity(new Intent(this,DashboardActivity.class));
         } else {
             register();
         }
@@ -34,6 +36,6 @@ public class AuthenticationActivity extends AppCompatActivity {
     private void register() {
     }
 
-    private void loadDetails() {
+    private void verifyDetails() {
     }
 }
