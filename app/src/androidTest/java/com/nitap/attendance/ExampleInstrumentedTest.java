@@ -1,4 +1,4 @@
-package com.ttv.livedemo;
+package com.nitap.attendance;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.ttvlivedemo", appContext.getPackageName());
+        assertEquals("com.nitap.attendance", appContext.getPackageName());
     }
 }

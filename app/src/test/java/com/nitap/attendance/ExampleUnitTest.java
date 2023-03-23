@@ -1,4 +1,4 @@
-package com.ttv.livedemo;
+package com.nitap.attendance;
 
 import org.junit.Test;
 
