@@ -6,7 +6,7 @@
     <string name="id_back_capture">Scan ID Card Back</string>
 
     <string name="liveness_detection">Liveness Detection</string>
-    
+
     <string name="title_activity_scan_qr_code">Scan QrCode</string>
     <string name="qc_code_close">Close</string>
     <string name="qr_code_select_picture">Select Picture</string>
