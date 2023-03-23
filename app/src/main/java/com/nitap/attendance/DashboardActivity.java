@@ -19,7 +19,7 @@ public class DashboardActivity extends AppCompatActivity {
     public void takeAttendance(View view) {
         loadDetails();
         setConfigurations();
-        startActivity(new Intent(this,FaceRecognitionActivity.class));
+        startActivity(new Intent(this,CameraActivity.class));
     }
 
     private void setConfigurations() {

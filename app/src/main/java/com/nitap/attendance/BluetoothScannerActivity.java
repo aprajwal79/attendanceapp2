@@ -84,7 +84,7 @@ public class BluetoothScannerActivity extends AppCompatActivity {
                 t(device.getAddress());
                 //if (!mylist2.contains(device.getAddress())) { mylist2.add(device.getAddress() ); }
                 if (!bluetoothDevices.contains(device)) {
-                    bluetoothDevices.add(device);
+                 //   bluetoothDevices.add(device);
                     // devicesAdapter.notifyDataSetChanged();
                 }
             }
