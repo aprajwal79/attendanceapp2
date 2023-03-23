@@ -1,12 +1,10 @@
-package com.ttv.livedemo;
+package com.nitap.attendance;
 
 import android.Manifest;
-import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
-import android.graphics.Camera;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
@@ -28,7 +26,6 @@ import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
-import com.ttv.face.FaceEngine;
 
 import java.io.File;
 
@@ -320,6 +317,7 @@ public class ActivationActivity extends AppCompatActivity implements View.OnClic
                     break;
                 }
             }
+            super.onActivityResult(requestCode,resultCode,data);
         }
 
     }

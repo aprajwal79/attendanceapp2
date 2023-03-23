@@ -5,7 +5,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 
-import com.ttv.livedemo.R;
+import com.nitap.attendance.R;
 
 
 /**

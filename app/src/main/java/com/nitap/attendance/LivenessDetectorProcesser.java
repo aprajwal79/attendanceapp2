@@ -1,4 +1,4 @@
-package com.ttv.livedemo;
+package com.nitap.attendance;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -8,7 +8,6 @@ import android.os.Looper;
 import com.ttv.face.FaceEngine;
 import com.ttv.face.FaceResult;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import io.fotoapparat.parameter.Size;

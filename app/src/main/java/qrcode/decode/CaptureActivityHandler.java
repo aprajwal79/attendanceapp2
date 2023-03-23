@@ -17,7 +17,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 
-import com.ttv.livedemo.R;
+import com.nitap.attendance.R;
 import com.google.zxing.Result;
 
 import qrcode.QrCodeActivity;

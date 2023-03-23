@@ -1,4 +1,4 @@
-package com.ttv.livedemo;
+package com.nitap.attendance;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -21,9 +21,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.LinkedHashSet;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 

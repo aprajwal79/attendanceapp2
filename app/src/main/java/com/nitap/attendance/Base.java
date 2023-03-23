@@ -1,4 +1,4 @@
-package com.ttv.livedemo;
+package com.nitap.attendance;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;

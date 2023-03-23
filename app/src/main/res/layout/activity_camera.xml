@@ -28,7 +28,7 @@
             android:visibility="gone"
             tools:visibility="visible" >
 
-            <com.ttv.livedemo.FaceRectView
+            <com.nitap.attendance.FaceRectView
                 android:id="@+id/rectanglesView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
@@ -62,7 +62,8 @@
         android:layout_marginBottom="12dp"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/switchCamera"

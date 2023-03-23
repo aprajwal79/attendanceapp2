@@ -24,7 +24,7 @@ import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 
 
-import com.ttv.livedemo.R;
+import com.nitap.attendance.R;
 
 import qrcode.utils.ScreenUtils;
 

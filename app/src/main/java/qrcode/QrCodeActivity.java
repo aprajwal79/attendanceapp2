@@ -20,7 +20,7 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Toast;
 
-import com.ttv.livedemo.R;
+import com.nitap.attendance.R;
 import com.google.zxing.Result;
 
 import java.io.IOException;

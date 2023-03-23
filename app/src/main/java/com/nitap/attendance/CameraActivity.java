@@ -1,56 +1,31 @@
-package com.ttv.livedemo;
+package com.nitap.attendance;
 
 
-import android.app.AlertDialog;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.Rect;
-import android.net.Uri;
-import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
-import android.provider.Settings;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 
 import com.ttv.face.FaceEngine;
 import com.ttv.face.FaceResult;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import dmax.dialog.SpotsDialog;
 import io.fotoapparat.Fotoapparat;
 import io.fotoapparat.FotoapparatSwitcher;
 import io.fotoapparat.parameter.LensPosition;
 import io.fotoapparat.parameter.Size;
 import io.fotoapparat.parameter.selector.SelectorFunction;
-import io.fotoapparat.parameter.selector.SizeSelectors;
-import io.fotoapparat.result.PendingResult;
 import io.fotoapparat.view.CameraView;
 
-import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
-import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
-import static android.os.Build.VERSION.SDK_INT;
 import static io.fotoapparat.parameter.selector.LensPositionSelectors.lensPosition;
 
 public class CameraActivity extends AppCompatActivity {
@@ -71,6 +46,7 @@ public class CameraActivity extends AppCompatActivity {
     TextView resultView,partial;
     boolean mSwitchCamera = false;
 
+
     public static void green() {
         if (tv1 != null)
             tv1.setTextColor(Color.GREEN);
@@ -89,6 +65,7 @@ public class CameraActivity extends AppCompatActivity {
         resultView=findViewById(R.id.resultView);
         tv1 =  findViewById(R.id.resultView);
         tv1.setTextColor(Color.RED);
+
 
 
         partial=findViewById(R.id.partial);

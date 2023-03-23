@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-package com.ttv.livedemo;
+package com.nitap.attendance;
 
 public interface SimilarityClassifier {
 

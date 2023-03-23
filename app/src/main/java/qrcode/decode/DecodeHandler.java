@@ -17,7 +17,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 
-import com.ttv.livedemo.R;
+import com.nitap.attendance.R;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.DecodeHintType;

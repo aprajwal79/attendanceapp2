@@ -14,7 +14,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.ttv.livedemo"
+        applicationId "com.nitap.attendance"
         minSdkVersion 21
         targetSdkVersion 33
         versionCode 14

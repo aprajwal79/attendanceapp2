@@ -1,4 +1,4 @@
-package com.ttv.livedemo;
+package com.nitap.attendance;
 
 import android.app.AlertDialog.Builder;
 import android.app.Dialog;
